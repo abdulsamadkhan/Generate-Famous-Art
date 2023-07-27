@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>Generate Famous Art</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Generate Famous Art</h1>
+    <div class="container">
+        <div class="example">
+            <h2><strong>Description</strong> </h2>
+            <p>Unveil the extraordinary world of JavaScript and DALL-E as they conjure captivating paintings from mere descriptions of renowned masterpieces, shrouded in mystery without a single hint of their identity. Experience the enchantment of art come to life with a single stroke of imagination!
+                .</p>
+            <p><h2><strong>Examples:</strong> </h2> <br>
+                <strong>Prompt:</strong><br> A captivating masterpiece, an enigmatic smile's allure.
+                Exquisite details and Renaissance art's brilliance endure.
+                A timeless portrait leaving viewers to ponder and admire."<br>
+                <br><strong>Ouput:</strong><br><br>
+                <img src="mona.jpg" alt="Image" width="224" height="224">
+
+                <br><br><strong>Prompt:</strong><br> An illustrious masterpiece portraying a dreamlike nocturnal sky, aglow with sparkling stars. The celestial display embraces a serene village below, painted with emotive and textured brushstrokes. This captivating artwork reveals the artist's profound vision and evokes a timeless sense of wonder and enchantment.<br>
+                <br><strong>Ouput:</strong><br><br>
+                <img src="Night.jpg" alt="Image" width="224" height="224">
+            
+                
+            </p>
+  
+        </div>
+        <div class="main-content">
+            <div id="output-img" class="frame">
+                <h2>Capture the essence of an iconic artwork without disclosing its title or the creative mind behind it!</h2>
+            </div>
+            <textarea placeholder="masterpiece, an enigmatic smile's allure..." id="instruction"></textarea>
+            <button id="submit-btn">Generate</button>
+            <p></p>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body> 
+</html>

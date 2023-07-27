@@ -1,0 +1,103 @@
+html, body {
+    margin: 0px;
+    padding: 0;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(#333333, #222222);
+    height: 100vh;
+    margin: 0 20px;
+}
+
+h1 {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.example {
+    flex: 1;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .04em;
+    color: #fff;
+}
+
+textarea {
+    width: 280px;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border-radius: 5px;
+    resize: none;
+    height: 3.5em;
+}
+
+button {
+    margin-top: 8px;
+    background: deepskyblue;
+    background: #b2835a;
+    width: 280px;
+    padding: 15px 0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1.1px;
+}
+
+.frame {
+    background-color: #030303;
+    border: solid 5vmin #210404;
+    border-bottom-color: rgb(111, 78, 55);
+    border-left-color: rgb(90, 68, 50);
+    border-radius: 10px; /* Increased border radius for smoother edges */
+    border-right-color: rgb(90, 68, 40);
+    border-top-color: rgb(101, 78, 55);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25) inset, 0 5px 20px 5px rgba(0, 0, 0, 0.25); /* Increased box-shadow for a smoother effect */
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 280px;
+    height: 280px;
+    transition: all 0.3s ease; /* Added transition for smoother changes */
+}
+
+.frame:hover {
+    transform: scale(1.05); /* Smooth scale-up effect on hover */
+}
+
+.frame img {
+    width: 100%;
+}
+
+.frame h2 {
+    margin-top: 3.4em;
+    font-size: 1.1em;
+}
